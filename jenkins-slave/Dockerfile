@@ -13,6 +13,7 @@ RUN yum install -y git && \
 	yum install -y java-1.8.0-openjdk && \
 	yum install -y sudo && \
 	yum install -y python36 && \
+	yum install -y make && \
 	yum clean all 
 
 ARG user=jenkins
